@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf5eaa46-7d0f-449f-87f5-f35f46d47f07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/complexmath/ComplexAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/complexmath/ComplexDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/complexmath/ComplexMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objects/ComplexCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
@@ -60,22 +59,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701918917765</updated>
-      <workItem from="1701918918810" duration="1935000" />
+      <workItem from="1701918918810" duration="3609000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
