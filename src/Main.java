@@ -1,17 +1,26 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import complexmath.ComplexAddition;
+import complexmath.ComplexDivision;
+import complexmath.ComplexMultiplication;
+import objects.ComplexCalculator;
+import objects.ComplexNumber;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        ComplexCalculator calculator = new ComplexCalculator();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        ComplexNumber a = new ComplexNumber(5, 3);
+        ComplexNumber b = new ComplexNumber(2, 7);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        calculator.setOperation(new ComplexAddition());
+        ComplexNumber resultAdd = calculator.performOperation(a, b);
+        System.out.println("Addition Result: " + resultAdd);
+
+        calculator.setOperation(new ComplexMultiplication());
+        ComplexNumber resultMul = calculator.performOperation(a, b);
+        System.out.println("Multiplication Result: " + resultMul);
+
+        calculator.setOperation(new ComplexDivision());
+        ComplexNumber resultDiv = calculator.performOperation(a, b);
+        System.out.println("Division Result: " + resultDiv);
     }
 }
